@@ -8,6 +8,7 @@
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "lint": "ng lint",
+    "lint-fix":"npm run lint --fix",
     "pretty-quick": "pretty-quick --staged",
     "prepare": "husky install"
   },
