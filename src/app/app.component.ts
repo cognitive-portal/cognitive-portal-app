@@ -9,6 +9,7 @@ import { RouterOutlet } from '@angular/router';
   styleUrl: './app.component.scss',
 })
 export class AppComponent implements OnInit {
+  title = 'cognitive-portal-app';
   ngOnInit(): void {
     console.log('lifecycle hook implemented');
   }
