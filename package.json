@@ -8,7 +8,7 @@
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "lint": "ng lint",
-    "lint-fix":"npm run lint --fix",
+    "lint-fix": "npm run lint --fix",
     "pretty-quick": "pretty-quick --staged",
     "prepare": "husky install"
   },
@@ -30,19 +30,12 @@
     "@angular-devkit/build-angular": "^18.2.12",
     "@angular/cli": "^18.2.12",
     "@angular/compiler-cli": "^18.2.0",
-    "@types/jasmine": "~5.1.0",
     "angular-eslint": "19.0.2",
     "eslint": "^9.16.0",
-    "jasmine-core": "~5.2.0",
-    "karma": "~6.4.0",
-    "karma-chrome-launcher": "~3.2.0",
-    "karma-coverage": "~2.2.0",
-    "karma-jasmine": "~5.1.0",
-    "karma-jasmine-html-reporter": "~2.1.0",
+    "husky": "^8.0.0",
     "prettier": "^3.4.2",
     "pretty-quick": "^4.0.0",
     "typescript": "~5.5.2",
-    "typescript-eslint": "8.18.0",
-    "husky": "^8.0.0"
+    "typescript-eslint": "8.18.0"
   }
 }
